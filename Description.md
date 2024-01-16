@@ -19,7 +19,8 @@
 5. **Feature Selection and Linearity:**
    - Explored feature correlations through a heatmap using `sns.heatmap()`.
    - Selected features for model training based on correlation analysis.
-   - 
+   - ![H1](https://github.com/Rutuja-Salunke/Iris-Flower-Species-Classification/assets/102023809/7ec99c7a-954d-403b-88a3-6eb094532ad5)
+
 
 6. **Model Training (Logistic Regression):**
    - Split the data into training and testing sets using `train_test_split()`.
@@ -35,6 +36,7 @@
 9. **Model Evaluation (Decision Tree):**
    - Evaluated the Decision Tree model on training and testing sets.
    - Examined accuracy, confusion matrix, and classification report.
+   - ![DT1](https://github.com/Rutuja-Salunke/Iris-Flower-Species-Classification/assets/102023809/478416b7-459d-4a01-9046-0ca9d27896f7)
 
 10. **Hyperparameter Tuning (RandomizedSearchCV):**
     - Performed hyperparameter tuning for Decision Tree using `RandomizedSearchCV()`.
