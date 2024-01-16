@@ -6,7 +6,6 @@
   - Exploratory Data Analysis (EDA)
   - Feature Engineering
   - Outlier Handling and Feature Scaling
-  - Dimensionality Reduction using PCA
 - **Machine Learning Models:**
   - Logistic Regression
   - Decision Tree
@@ -18,6 +17,5 @@
   - Classification Report
 - **Visualization:**
   - Heatmap for feature correlation
-  - PCA visualization of reduced dimensions
   - Decision boundaries for Logistic Regression
 - **Project Outcome:** Comprehensive insights into iris species prediction with clear visualizations and concise model evaluation.
