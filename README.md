@@ -1,5 +1,7 @@
 # Iris-Flower-Species-Classification
 - **Objective:** Iris Flower Species Classification
+- ![DT1](https://github.com/Rutuja-Salunke/Iris-Flower-Species-Classification/assets/102023809/51caf4b7-e226-4d07-bb7b-3909ebe16e0c)
+
 - **Analysis Steps:**
   - Exploratory Data Analysis (EDA)
   - Feature Engineering
