@@ -43,6 +43,46 @@
 
 11. **K-Nearest Neighbors (KNN):**
     - Introduced K-Nearest Neighbors as an alternative classification approach.
+    - **K-Nearest Neighbors (KNN):**
+
+***Definition:***
+K-Nearest Neighbors (KNN) is a supervised machine learning algorithm used for classification and regression tasks. In classification, it assigns an input data point to the majority class among its K-nearest neighbors. In regression, it predicts the output based on the average of the values of its K-nearest neighbors.
+
+***Key Concepts:***
+
+1. ***Distance Measure:***
+   - KNN relies on a distance metric (usually Euclidean distance) to calculate the similarity between data points. The algorithm identifies the K-nearest neighbors of a given data point based on this measure.
+
+2. ***Parameter K:***
+   - K represents the number of neighbors considered for decision-making. Choosing an appropriate K is crucial. A small K may lead to noise sensitivity, while a large K may result in oversmoothing.
+
+3. ***Classification:***
+   - In a classification task, the class label of an unseen data point is determined by a majority vote among its K-nearest neighbors. The class with the highest count becomes the predicted class for the data point.
+
+4. ***Regression:***
+   - For regression tasks, KNN calculates the average of the target values of its K-nearest neighbors to predict the target value for the unseen data point.
+
+**Workflow:**
+
+   1. **Calculate Distances:**
+     - Compute the distance between the input data point and all other data points in the training set using the chosen distance metric.
+
+   2. **Identify Neighbors:**
+     - Select the K-nearest neighbors based on the calculated distances.
+
+   3. **Majority Vote (Classification) or Average (Regression):**
+     - For classification, assign the class label that occurs most frequently among the K-nearest neighbors. For regression, predict the average of their target values.
+
+**Advantages:**
+- Simple and easy to understand.
+- No training phase; the algorithm directly uses the training data during prediction.
+- Works well for small to moderately sized datasets.
+
+**Challenges:**
+- Sensitive to irrelevant or redundant features.
+- Computationally expensive for large datasets.
+- Optimal choice of K is critical and may vary for different datasets.
+
 
 12. **Visualization:**
     - Plotted decision boundaries for Logistic Regression.
