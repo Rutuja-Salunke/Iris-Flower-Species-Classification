@@ -1,1 +1,21 @@
 # Iris-Flower-Species-Classification
+- **Objective:** Iris Flower Species Classification
+- **Analysis Steps:**
+  - Exploratory Data Analysis (EDA)
+  - Feature Engineering
+  - Outlier Handling and Feature Scaling
+  - Dimensionality Reduction using PCA
+- **Machine Learning Models:**
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest
+  - K-Nearest Neighbors (briefly introduced)
+- **Evaluation Metrics:**
+  - Accuracy Score
+  - Confusion Matrix
+  - Classification Report
+- **Visualization:**
+  - Heatmap for feature correlation
+  - PCA visualization of reduced dimensions
+  - Decision boundaries for Logistic Regression
+- **Project Outcome:** Comprehensive insights into iris species prediction with clear visualizations and concise model evaluation.
